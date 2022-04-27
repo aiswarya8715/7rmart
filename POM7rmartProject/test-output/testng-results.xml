@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6316" started-at="2022-04-26T17:54:38 IST" finished-at="2022-04-26T17:54:44 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6316" started-at="2022-04-26T17:54:38 IST" finished-at="2022-04-26T17:54:44 IST">
+      <class name="com.sevenrmart.qa.testcases.VerifyManageFooterTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.sevenrmart.qa.testcases.VerifyManageFooterTest@149494d8]" name="setUp" is-config="true" duration-ms="2997" started-at="2022-04-26T17:54:38 IST" finished-at="2022-04-26T17:54:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="manageFooterLogin()[pri:1, instance:com.sevenrmart.qa.testcases.VerifyManageFooterTest@149494d8]" name="manageFooterLogin" duration-ms="1821" started-at="2022-04-26T17:54:41 IST" finished-at="2022-04-26T17:54:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageFooterLogin -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.sevenrmart.qa.testcases.VerifyManageFooterTest@149494d8]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2022-04-26T17:54:43 IST" finished-at="2022-04-26T17:54:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=manageFooterLogin status=SUCCESS method=VerifyManageFooterTest.manageFooterLogin()[pri:1, instance:com.sevenrmart.qa.testcases.VerifyManageFooterTest@149494d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyEditAction()[pri:2, instance:com.sevenrmart.qa.testcases.VerifyManageFooterTest@149494d8]" name="verifyEditAction" duration-ms="1465" started-at="2022-04-26T17:54:43 IST" finished-at="2022-04-26T17:54:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditAction -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.sevenrmart.qa.testcases.VerifyManageFooterTest@149494d8]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2022-04-26T17:54:44 IST" finished-at="2022-04-26T17:54:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEditAction status=SUCCESS method=VerifyManageFooterTest.verifyEditAction()[pri:2, instance:com.sevenrmart.qa.testcases.VerifyManageFooterTest@149494d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.sevenrmart.qa.testcases.VerifyManageFooterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
